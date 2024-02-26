@@ -15,7 +15,7 @@ ui <- fluidPage(theme = shinytheme("flatly"),navbarPage("Statistik over fodbolds
                                                                  sidebarPanel(
                                                                    selectInput("land1",
                                                                                label = " Vælg land",
-                                                                               choices = c("Holland", "Polen"),
+                                                                               choices = c("Denmark", "Polen"),
                                                                                selected = "Denmark"),
                                                                    selectInput("season1",
                                                                                label = "Vælg sæson",
